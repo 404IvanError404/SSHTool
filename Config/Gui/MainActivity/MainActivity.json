@@ -1,0 +1,24 @@
+{
+  "title": "SSHTool",
+  "width": 800,
+  "height": 600,
+  "css": {
+    "background-image": "url(res/image/MainActivity/main_background2.jpg)"
+  },
+  "menus": [
+    {
+      "name":"File",
+      "subMenus": [
+        {"text": "Exit", "shortcut": "Ctrl+Q", "status": "Exit Application", "event": "qApp.quit"}
+      ]
+    },
+    {
+      "name":"View",
+      "subMenus": [
+        {"text": "SFTR Window", "shortcut": "Ctrl+Alt+S", "status": "Open SFTR Window", "event": "self.newSFTP" },
+        {"text": "Terminal", "shortcut": "Ctrl+Alt+T", "status": "Open Terminal Console", "event": "self.newTerminal" },
+        {"text": "About", "shortcut": "", "status": "About Application", "event": "self.alertAbout" }
+      ]
+    }
+  ]
+}

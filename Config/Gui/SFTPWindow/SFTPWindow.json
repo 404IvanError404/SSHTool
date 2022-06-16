@@ -1,0 +1,11 @@
+{
+  "title": "SFTR Window",
+  "width": 810,
+  "height": 800,
+  "icon": "res/image/SFTRWindow/window.png",
+  "position": {"x": 200, "y": 200},
+  "css": {
+    "background": "white",
+    "color": "black"
+  }
+}
